@@ -1,0 +1,83 @@
+$breakpoints (
+    small: 0px,
+    medium: 640px,
+    large: 1024px,
+    xlarge: 1200px,
+    xxlarge: 1440px,
+);
+
+@mixin rwd($bp) {
+    @media screen and (min-width: map-get($breakpoints,$bp)) {
+        @content;
+    }
+}
+
+    body{
+        background-color: #23BAC4;
+        font-family: sans-serif;
+        padding:0;
+        margin: 0;
+        color: #000000;
+        font-size: 20px;
+        flex-wrap: wrap;
+        width: 100%;
+        box-sizing: border-box;
+
+        @include rwd(small)
+    } 
+
+    body{
+        background-color: #23BAC4;
+        font-family: sans-serif;
+        padding:0;
+        margin: 0;
+        color: #000000;
+        font-size: 20px;
+        flex-wrap: wrap;
+        width: 100%;
+        box-sizing: border-box;
+
+        @include rwd(medium)
+    }
+
+    body{
+        background-color: #23BAC4;
+        font-family: sans-serif;
+        padding:0;
+        margin: 0;
+        color: #000000;
+        font-size: 20px;
+        flex-wrap: wrap;
+        width: 100%;
+        box-sizing: border-box;
+
+        @include rwd(large)
+    }
+
+    body{
+        background-color: #23BAC4;
+        font-family: sans-serif;
+        padding:0;
+        margin: 0;
+        color: #000000;
+        font-size: 20px;
+        flex-wrap: wrap;
+        width: 100%;
+        box-sizing: border-box;
+
+        @include rwd(xlarge)
+    }
+
+    body{
+        background-color: #23BAC4;
+        font-family: sans-serif;
+        padding:0;
+        margin: 0;
+        color: #000000;
+        font-size: 20px;
+        flex-wrap: wrap;
+        width: 100%;
+        box-sizing: border-box;
+
+        @include rwd(xxlarge)
+    }

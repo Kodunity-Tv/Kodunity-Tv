@@ -1,0 +1,273 @@
+body{
+    background-color: #23BAC4;
+    font-family: sans-serif;
+    padding:0;
+    margin: 0;
+    color: #000000;
+    font-size: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    margin-top: -25px;
+    width: 100%;
+}
+
+header nav {
+    width:100%;
+    background:#024959;
+    margin-top: 20px;
+    height: 35px;
+    
+}
+
+header nav ul {
+     
+    overflow: hidden;
+    list-style: none;
+    float: 20px;
+}
+
+header nav ul li {
+	float:left;
+    margin-top: 5px;
+    margin-left: 20px;
+        
+}
+
+header nav ul li a {
+    font-size: 20px;
+    color:#fff;
+	padding:15px;
+	text-decoration:none;
+    margin-right: 90px;
+}
+
+header nav ul li span {
+	margin-right:10px;
+}
+
+.effect-write h1{
+    top: 40px;
+    text-align: center;
+    display: table;
+    margin: auto;
+    position: relative;
+    font-size: 40px;
+    color:snow;
+    
+}
+    
+   
+
+.effect-write span{
+    background-color: #23BAC4;
+    position: absolute;
+    width: 0;
+    right: 0;
+    border-left: 1px solid #000;
+    position: absolute;
+    font-size:40px;
+    
+    animation: maquina 2s infinite alternate steps(8);
+}
+
+@keyframes maquina {
+    from{
+        width: 65%;
+        
+        }
+    
+    to{
+        width: 30%;
+        
+    }
+}
+
+
+.parrafo {
+    margin-top: 80px;
+    text-align: center;
+    color:snow;
+    width:100%;
+    font-size:40px;
+}
+
+footer{
+    bottom: 0;
+    background: #202020;
+    width: 100%;
+    height: 225px;
+    font-family: sans-serif;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color:white;
+    display:inline-flex;
+    left: 0;
+    right: 0;
+    font-size:15px;
+    flex-wrap: wrap;
+    position:relative;
+    overflow:hidden;
+}
+
+.colum1{
+    width: 420px;
+}
+
+.colum1 h1 {
+    text-align: left;
+    font-size: 2em;
+    text-decoration:none;
+    color:snow;
+    margin-left: 70px;
+    margin-bottom: -0;
+}
+
+.colum1 li{
+    top: -10px;
+    list-style: none;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.colum1 a:link {
+    text-decoration:none;
+    }
+
+.colum1 a:hover{
+        text-decoration:underline;
+        text-decoration-color: red;
+}
+
+.colum2{
+    width: 350px;
+    margin-left:50px;
+}
+
+.colum2 h1{
+    text-align: center;
+    font-size: 2em;
+    width: 500px;
+    margin-left: -111px;
+}
+
+
+
+.colum2 li{
+    text-align: left;
+    list-style: none;
+    
+}
+
+.colum2 li a{
+    color:steelblue;
+}
+
+.colum2 label{
+    margin-left: 15px;
+    color: snow;
+}
+
+.colum2 li a:hover{
+    text-decoration:underline;
+    color:navy;
+}
+
+.colum3 h1{
+    text-align: center;
+    font-size: 30px;
+    width: 500px;
+    height: 36px;  
+    margin-left: 50px;
+    
+}
+
+.colum3{
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 0;
+    width: 500px;
+    list-style: none;
+}
+
+
+
+.colum3 li{
+    margin-left: 200px;
+    text-decoration: none;
+    color:snow;
+    margin-bottom: 10px;
+}
+
+.colum3 a:link {
+    text-decoration:none;
+}
+
+.colum3 a:hover{
+    text-decoration:underline; 
+    text-decoration-color: red;
+}
+
+.copyrights{
+
+    display: flex;
+    width: 400px;
+    margin-bottom: 0;
+ }
+
+ .workinprogress{
+    margin-bottom: -5px;
+ }
+
+ .Videos{
+    background-color: steelblue;
+    margin-top: -0px;
+    height:1810px;
+    padding-bottom:10px;
+    padding-top:20px;
+    padding-left:15px;
+    margin-bottom: -72px;
+    
+}
+
+.Servicios{
+    background-color: white;
+    font-family: monospace;
+    color: black;
+}
+
+.Servicios ul li{
+    margin-bottom: 30px;
+    margin-top: -25px;
+    background-color: white;
+
+}
+
+.section1{
+    background-color: rgba(13, 141, 141, 0.507);
+    margin-top: -30px;
+    margin-bottom: -35px;
+    font-family: monospace;
+    color:black;
+    
+
+}
+
+.section1 ul li{
+    margin-top: -25px;
+    height: 40px;
+}
+
+.section1 li{
+    margin-bottom: 10px;
+    color:black;
+}
