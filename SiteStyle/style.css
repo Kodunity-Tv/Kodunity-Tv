@@ -1,5 +1,4 @@
 body{
-    background-color: #23BAC4;
     font-family: sans-serif;
     padding:0;
     margin: 0;
@@ -9,12 +8,19 @@ body{
     width: 100%;
     box-sizing: border-box;
 }
-
+.SocialMedia a:link{
+    color:darkcyan;
+}
+.SocialMedia a:hover{
+    color: blue;
+}
 
 
 header{
     margin-top: -25px;
     width: 100%;
+    margin-bottom: -3px;
+    background-color: royalblue;
 }
 
 header nav {
@@ -26,7 +32,6 @@ header nav {
 }
 
 header nav ul {
-     
     overflow: hidden;
     list-style: none;
     float: 20px;
@@ -36,7 +41,11 @@ header nav ul li {
 	float:left;
     margin-top: 5px;
     margin-left: 20px;
-        
+ 
+}
+
+.icon-tool{
+    margin-left: 10px;
 }
 
 header nav ul li a {
@@ -51,57 +60,11 @@ header nav ul li span {
 	margin-right:10px;
 }
 
-.effect-write h1{
-    top: 40px;
-    text-align: center;
-    display: table;
-    margin: auto;
-    position: relative;
-    font-size: 40px;
-    color:snow;
-    
-}
-    
-   
-
-.effect-write span{
-    background-color: #23BAC4;
-    position: absolute;
-    width: 0;
-    right: 0;
-    border-left: 1px solid #000;
-    position: absolute;
-    font-size:40px;
-    
-    animation: maquina 2s infinite alternate steps(8);
-}
-
-@keyframes maquina {
-    from{
-        width: 65%;
-        
-        }
-    
-    to{
-        width: 30%;
-        
-    }
-}
-
-
-.parrafo {
-    margin-top: 80px;
-    text-align: center;
-    color:snow;
-    width:100%;
-    font-size:40px;
-}
-
 footer{
     bottom: 0;
     background: #202020;
     width: 100%;
-    height: 225px;
+    height: auto;
     font-family: sans-serif;
     -moz-box-sizing: border-box;
     -o-box-sizing: border-box;
@@ -117,7 +80,7 @@ footer{
     overflow:hidden;
 }
 
-.colum1{
+.Colum1{
     width: 420px;
 }
 
@@ -149,63 +112,64 @@ footer{
 }
 
 .colum2{
-    width: 350px;
-    margin-left:50px;
+    width:420px;
 }
 
 .colum2 h1{
-    text-align: center;
-    font-size: 2em;
-    width: 500px;
-    margin-left: -111px;
+    width: 300px;
+    margin-left: 250px;
 }
 
-
-
-.colum2 li{
-    text-align: left;
+.redes li {
     list-style: none;
+    margin-top: 20px;
+    margin-left: 20px;
+    
     
 }
 
-.colum2 li a{
-    color:steelblue;
+.redes ul{
+    margin-top: 70px;
+    margin-left: -200px;
+    display: 
+    
 }
 
-.colum2 label{
-    margin-left: 15px;
-    color: snow;
+.redes ul li label{
+    margin-left: 10px;
+    
 }
 
-.colum2 li a:hover{
-    text-decoration:underline;
-    color:navy;
+.redes a:hover li{
+    text-decoration: cadetblue;
+}
+
+.colum3{
+    text-decoration: none;
+    width: 500px;
+    list-style: none;
+    font-size: 20px;
 }
 
 .colum3 h1{
     text-align: center;
     font-size: 30px;
-    width: 500px;
     height: 36px;  
-    margin-left: 50px;
+    margin-left: 230px;
+}
+
+ .colum3 ul li{
+    text-align: left;
+    list-style: none;
     
 }
 
-.colum3{
-    text-decoration: none;
-    font-size: 20px;
-    margin-left: 0;
-    width: 500px;
-    list-style: none;
-}
-
-
-
-.colum3 li{
-    margin-left: 200px;
+.colum3 a{
+    width:200px;
     text-decoration: none;
     color:snow;
     margin-bottom: 10px;
+    margin-left: 250px;
 }
 
 .colum3 a:link {
@@ -218,56 +182,73 @@ footer{
 }
 
 .copyrights{
-
+    
     display: flex;
     width: 400px;
-    margin-bottom: 0;
+    margin-top: -20px;
+    margin-left: 530px;
+    margin-bottom: -20px;
+
  }
 
- .workinprogress{
-    margin-bottom: -5px;
+ .rights{
+     margin-top: 5px;
+     margin-left: -399px;
+     display: flex;
+     margin-bottom: -10px;
+     
  }
-
- .Videos{
-    background-color: steelblue;
-    margin-top: -0px;
-    height:1810px;
-    padding-bottom:10px;
-    padding-top:20px;
-    padding-left:15px;
-    margin-bottom: -72px;
-    
-}
 
 .Servicios{
     background-color: white;
     font-family: monospace;
-    color: black;
+    color: rgb(187, 0, 0);
 }
 
-.Servicios ul li{
-    margin-bottom: 30px;
-    margin-top: -25px;
-    background-color: white;
-
-}
-
-.section1{
-    background-color: rgba(13, 141, 141, 0.507);
-    margin-top: -30px;
-    margin-bottom: -35px;
-    font-family: monospace;
-    color:black;
-    
-
-}
-
-.section1 ul li{
-    margin-top: -25px;
-    height: 40px;
-}
-
-.section1 li{
+.Servicios li{
+    margin-top: -180px;
+    margin-left: 390px;
     margin-bottom: 10px;
-    color:black;
+    width: 300px;
+    height: 200px;
+    
+    
+}
+
+.webdesign-img{
+    margin-top: -485px;
+    margin-left: 849px;
+    margin-bottom: -5px;
+}
+
+.img-presentacion{
+    position: absolute;
+    margin-top: -37px;
+}
+.about-us{
+    color:rgb(187, 0, 0);
+    text-align: center;
+    position: relative;
+    font-size: 30px;
+}
+
+.about{
+    color: rgb(187, 0, 0);
+    text-align: center;
+    position: relative;
+    font-size: 30px;
+    margin-bottom: -27px;
+}   
+
+.Videos{
+    margin-top: 3px;
+    margin-left: 20px;
+    margin-bottom: -27px;
+    background-color: royalblue;
+    padding: 2px;
+    
+}
+
+.Clips{
+    background-color: royalblue;
 }
