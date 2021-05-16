@@ -1,63 +1,67 @@
 body{
-    font-family: sans-serif;
-    padding:0;
     margin: 0;
-    color: #000000;
-    font-size: 20px;
-    flex-wrap: wrap;
-    width: 100%;
-    box-sizing: border-box;
+    padding: 0;
 }
-.SocialMedia a:link{
-    color:darkcyan;
-}
-.SocialMedia a:hover{
-    color: blue;
-}
-
 
 header{
-    margin-top: -25px;
+    background-color:#5D7580;
+    margin-top: -4px;
     width: 100%;
-    margin-bottom: -3px;
-    background-color: royalblue;
+    height: 35px;
+ 
 }
 
-header nav {
-    width:100%;
-    background:#024959;
-    margin-top: 20px;
-    height: 35px;
+nav {
+    color: white;
+    display: -webkit-flex;
+    display: flex;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li{
+    float: left;
+    margin-top: -10px;
+    margin-left: 115px;
     
 }
 
-header nav ul {
-    overflow: hidden;
-    list-style: none;
-    float: 20px;
+nav a{
+    text-decoration: none;
+    color: white;
 }
 
-header nav ul li {
-	float:left;
-    margin-top: 5px;
-    margin-left: 20px;
- 
+nav ul li span {
+	margin-right:10px;
 }
 
 .icon-tool{
     margin-left: 10px;
 }
 
-header nav ul li a {
-    font-size: 20px;
-    color:#fff;
-	padding:15px;
-	text-decoration:none;
-    margin-right: 90px;
+.img-presentacion{
+    position: absolute;
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
 }
 
-header nav ul li span {
-	margin-right:10px;
+.about-us{
+    color:rgb(187, 0, 0);
+    text-align: center;
+    position: relative;
+    font-size: 30px;
+}
+
+.about{
+    color: rgb(187, 0, 0);
+    text-align: center;
+    position: relative;
+    font-size: 30px;
+    margin-bottom: -27px;
 }
 
 footer{
@@ -72,183 +76,163 @@ footer{
     box-sizing: border-box;
     color:white;
     display:inline-flex;
+    display: -webkit-flex;
+    display: flex;
     left: 0;
     right: 0;
     font-size:15px;
     flex-wrap: wrap;
     position:relative;
-    overflow:hidden;
 }
 
 .Colum1{
-    width: 420px;
+    width: 500px;
 }
 
-.colum1 h1 {
-    text-align: left;
-    font-size: 2em;
-    text-decoration:none;
-    color:snow;
-    margin-left: 70px;
-    margin-bottom: -0;
+.colum1 h1{
+    margin-left: 40px;
+    width:410px;
 }
 
-.colum1 li{
-    top: -10px;
-    list-style: none;
-    font-size: 20px;
-    margin-left: 30px;
-    margin-bottom: 10px;
+.colum1 a:hover{
+    text-decoration:underline;
+    text-decoration-color: red;
+}
+
+.NavDirection li {
+list-style: none;
+margin-bottom: 10px;
+font-size: 20px;
+}
+
+.NavDirection a{
     text-decoration: none;
 }
 
-.colum1 a:link {
-    text-decoration:none;
-    }
-
-.colum1 a:hover{
-        text-decoration:underline;
-        text-decoration-color: red;
-}
-
 .colum2{
-    width:420px;
+    width: 400px;
 }
 
 .colum2 h1{
     width: 300px;
-    margin-left: 250px;
+    margin-left: 50px;
 }
 
-.redes li {
+.colum2 ul{
     list-style: none;
-    margin-top: 20px;
-    margin-left: 20px;
-    
-    
-}
-
-.redes ul{
-    margin-top: 70px;
-    margin-left: -200px;
-    display: 
-    
-}
-
-.redes ul li label{
+    margin-bottom:10px;
     margin-left: 10px;
-    
-}
-
-.redes a:hover li{
-    text-decoration: cadetblue;
-}
-
-.colum3{
-    text-decoration: none;
-    width: 500px;
-    list-style: none;
     font-size: 20px;
 }
 
-.colum3 h1{
-    text-align: center;
-    font-size: 30px;
-    height: 36px;  
-    margin-left: 230px;
+.colum2 li label{
+    margin-left: 10px;
+
 }
 
- .colum3 ul li{
-    text-align: left;
+.colum2 li{
+    margin-bottom: 15px;
+}
+
+.colum2 a:link{
+    color: cadetblue;
+}
+
+.colum3{
+    width: 400px;
+}
+
+.colum3 h1{
+    margin-left: 150px;
+}
+.colum3 li{
     list-style: none;
-    
+    margin-bottom: 10px;
 }
 
 .colum3 a{
-    width:200px;
     text-decoration: none;
-    color:snow;
-    margin-bottom: 10px;
-    margin-left: 250px;
-}
+    font-size: 20px;
+    margin-left: 150px;
 
-.colum3 a:link {
-    text-decoration:none;
 }
 
 .colum3 a:hover{
-    text-decoration:underline; 
+    text-decoration:underline;
     text-decoration-color: red;
 }
 
 .copyrights{
-    
+    font-size: 20px;
+    margin-left: 500px;
+}
+
+.rights{
+    font-size: 20px;
+    margin-top: -30px;
+    margin-left: 500px;
+}
+
+#contenedor{
+   display: flex;
+   display: -webkit-flex;
+   width: 100%;
+   height: 300px;
+   padding: 0;
+   margin: 0;
+   top: 0;
+}
+
+.Tanix{
+    width: 500px;
     display: flex;
-    width: 400px;
-    margin-top: -20px;
-    margin-left: 530px;
-    margin-bottom: -20px;
-
- }
-
- .rights{
-     margin-top: 5px;
-     margin-left: -399px;
-     display: flex;
-     margin-bottom: -10px;
-     
- }
-
-.Servicios{
-    background-color: white;
-    font-family: monospace;
-    color: rgb(187, 0, 0);
+    display: -webkit-flex;
 }
 
-.Servicios li{
-    margin-top: -180px;
-    margin-left: 390px;
-    margin-bottom: 10px;
-    width: 300px;
-    height: 200px;
-    
-    
+.Tanix img{
+    width: 500px;
+    margin: 5px;
 }
 
-.webdesign-img{
-    margin-top: -485px;
-    margin-left: 849px;
-    margin-bottom: -5px;
-}
-
-.img-presentacion{
-    position: absolute;
-    margin-top: -37px;
-}
-.about-us{
-    color:rgb(187, 0, 0);
-    text-align: center;
-    position: relative;
-    font-size: 30px;
-}
-
-.about{
-    color: rgb(187, 0, 0);
-    text-align: center;
-    position: relative;
-    font-size: 30px;
-    margin-bottom: -27px;
-}   
-
-.Videos{
-    margin-top: 3px;
+.item {
+    min-height: 100px;
+    width: 325px; 
+    height: 300px;
+    margin-top: -8px;
     margin-left: 20px;
-    margin-bottom: -27px;
-    background-color: royalblue;
-    padding: 2px;
-    
 }
 
-.Clips{
+.item ul{
+    list-style: none;
+    width: 300px;
+    padding: 0;
+    top: -500px;
+}
+
+.item li{
+    -webkit-align-self: center;
+    align-self: center;
+    width: 300px;
+    color: rgb(187, 0, 0);
+    margin-bottom: 10px;
+    float: right;
+}
+
+.item2{
+    width: 500px;
+    margin: 5px;
+    padding: 0;
+}
+
+.item2 img{
+    float: right;
+    margin-left: -500px;
+}
+
+section{
     background-color: royalblue;
+}
+
+.Videos iframe{
+   margin: 6px; 
 }
